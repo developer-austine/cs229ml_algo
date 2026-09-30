@@ -1297,10 +1297,10 @@ If this project is used in research, experiments, educational material, or deriv
 
 ```bibtex
 @software{project_name,
-  author  = {Your Name},
+  author  = {Austine Alex},
   title   = {C229AI_ALGO},
   year    = {2026},
-  url     = {https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY>}
+  url     = {https://github.com/developer-austine/cs229ai_algo}
 }
 ```
 
@@ -1321,24 +1321,4 @@ Designed for measurement.
 Focused on machine learning training.**
 
 </p>
-```
 
-### What I changed from the reference
-
-I deliberately **didn't reproduce the `nanochat` README structure verbatim**. The source focuses heavily on its GPT-2 speedrun, `--depth` scaling dial, CORE score, and the specific nanochat pipeline. 
-
-For your repo, I shifted the identity toward a **general ML training/research platform**:
-
-* **Training is the center**, not chatting/inference.
-* Added a proper **data → model → training → evaluation → benchmarking** architecture.
-* Added **experiment methodology** and reproducibility.
-* Added **scaling experiments**.
-* Added **training-performance metrics**.
-* Added **checkpointing**.
-* Added a much more explicit **testing strategy**.
-* Added **research workflow / hypothesis-driven experimentation**.
-* Added a results table designed to be populated from your actual runs.
-* Left the **image placeholder** so you can drop your own training graph/banner into `assets/banner.png`.
-* Avoided inventing your actual test results or benchmark numbers.
-
-The structure is also compatible with a repo that eventually grows from a small training experiment into a serious **ML research/training codebase**.
