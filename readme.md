@@ -1,10 +1,3 @@
-Absolutely, man. I’d structure it as a **serious ML/LLM training research repository**, rather than making it look like a copy of `nanochat`. The emphasis should be on **training infrastructure, experiments, datasets, model scaling, evaluation, reproducibility, and benchmarking**.
-
-Below is a ready-to-paste `README.md`. I’ve left a clear placeholder for your image.
-
-````markdown
-# C229AI_ALGO
-
 > An experimental machine learning training framework for building, training, evaluating, and benchmarking neural network models at scale.
 
 <p align="center">
