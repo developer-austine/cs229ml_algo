@@ -38,7 +38,7 @@ def walk_through_dir(dir_path):
 def plot_decision_boundary(model: torch.nn.Module, X: torch.Tensor, y: torch.Tensor):
     """Plots decision boundaries of model predicting on X in comparison to y.
 
-    Source - https://madewithml.com/courses/foundations/neural-networks/ (with modifications)
+    Source - https://madewithml.com/courses/foundations/neural-networks/ (with modifications).
     """
     # Put everything to CPU (works better with NumPy + Matplotlib)
     model.to("cpu")
